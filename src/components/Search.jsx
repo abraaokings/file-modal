@@ -9,8 +9,7 @@ const Search = () => {
         <input type="text" placeholder="Search or type a command" />
       </div>
       <div className="input-command">
-        <IconCommand />
-        <span>/ K</span>
+        <kbd><IconCommand/></kbd> + <kbd>K</kbd>
       </div>
     </div>
   );

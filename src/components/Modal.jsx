@@ -8,7 +8,7 @@ const Modal = ({ modal, setModal }) => {
   if (modal) {
     return (
       <>
-        <ModalOverlay onClick={() => setModal(false)} />
+        <ModalOverlay onClick={()=> setModal(false)} />
         <ModalContainer>
           <IconCloseModal onClick={() => setModal(false)} />
           <Search />

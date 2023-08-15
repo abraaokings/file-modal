@@ -32,8 +32,14 @@ export const ModalContainer = styled.div`
     font-size: 16px;
     color: #999999;
   }
+  
+  .input-command, .input-command kbd {
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+  }
 
-  .input-command {
+  /* .input-command {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -44,7 +50,7 @@ export const ModalContainer = styled.div`
   .input-command > span {
     color: #868686;
     font-size: 12px;
-  }
+  } */
   .qa-content {
     display: flex;
     align-items: center;
